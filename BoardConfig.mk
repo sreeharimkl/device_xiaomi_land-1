@@ -91,6 +91,13 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_TWRPAPP := true
 
+TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor cust
+TW_INCLUDE_FBE := true
+TW_INCLUDE_CRYPTO_FBE := true
+TARGET_HW_DISK_ENCRYPTION := true
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
+
 #shrp flags
 SHRP_PATH := device/xiaomi/land
 SHRP_MAINTAINER := sreeharimkl
