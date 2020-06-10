@@ -103,6 +103,8 @@ SHRP_FLASH := 1
 SHRP_FLASH_MAX_BRIGHTNESS := 200
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_REC_TYPE := Universal
+SHRP_OFFICIAL := true
+SHRP_EXPRESS := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
