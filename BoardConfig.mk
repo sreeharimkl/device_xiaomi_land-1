@@ -91,6 +91,19 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_TWRPAPP := true
 
+#shrp flags
+SHRP_PATH := device/xiaomi/land
+SHRP_MAINTAINER := sreeharimkl
+SHRP_DEVICE_CODE := land
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_FLASH_MAX_BRIGHTNESS := 200
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_REC_TYPE := Universal
+
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
 
