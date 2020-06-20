@@ -113,6 +113,7 @@ SHRP_REC_TYPE := Universal
 SHRP_OFFICIAL := true
 SHRP_EXPRESS := true
 SHRP_DARK := true
+SHRP_NO_SAR_AUTOMOUNT := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
