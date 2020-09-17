@@ -41,6 +41,7 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor cust
 
 # Encryption
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Kernel
