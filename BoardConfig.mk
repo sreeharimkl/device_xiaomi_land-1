@@ -109,4 +109,20 @@ TW_INCLUDE_NTFS_3G := true
 # Twrp Fuse-ExFAT Filesystem Support
 TW_INCLUDE_FUSE_EXFAT := true
 
+#shrp flags
+SHRP_PATH := device/xiaomi/land
+SHRP_MAINTAINER := sreeharimkl
+SHRP_DEVICE_CODE := land
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_FLASH_MAX_BRIGHTNESS := 200
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_REC_TYPE := Universal
+SHRP_OFFICIAL := true
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_NO_SAR_AUTOMOUNT := true
 
